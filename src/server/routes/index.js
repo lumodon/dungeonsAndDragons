@@ -7,7 +7,7 @@ router.use('/', (req, res, next) => {
   next()
 })
 
-router.get(/^sheet$/, (req, res) => {
+router.get(/^\/(sheets?)?$/, (req, res) => {
   res.render('homepage', {power: powers[0]})
 })
 
