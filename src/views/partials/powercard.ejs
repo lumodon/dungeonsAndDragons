@@ -1,29 +1,27 @@
-<div class='container'>
-  <div class='power'>
-    <div class='encounter darkred'>
-      <table class='wiki-content-table'>
-        <tbody>
-          <tr>
-            <th><%= locals.power.name %></th>
-            <td style='text-align: right;'><%= locals.power.attack %></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class='shaded lightred'>
-      <p><em><%= locals.power.description %></em></p>
-    </div>
-    <div class='plain'>
-      <p><strong><%= locals.power.types %></strong><br>
-      <strong><%= locals.power.actionType %></strong> 10<br>
-      <strong>Target:</strong> <%= locals.power.target %><br>
-      <strong>Attack:</strong> <%= locals.power.attackVersus %></p>
-    </div>
-    <div class='shaded lightred'>
-      <p><strong>Hit:</strong> <%= locals.power.hit %></p>
-    </div>
-    <div class='plain'>
-      <p><strong><%= locals.power.specialTitle %></strong><%= locals.power.specialValue %></p>
-    </div>
+<div class='power'>
+  <div class='encounter darkred'>
+    <table class='wiki-content-table'>
+      <tbody>
+        <tr>
+          <th><%= locals.power.name %></th>
+          <td style='text-align: right;'><%= locals.power.attack %></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class='shaded lightred'>
+    <p><em><%= locals.power.description %></em></p>
+  </div>
+  <div class='plain'>
+    <p><strong><%= locals.power.types %></strong><br>
+    <strong><%= locals.power.actionType %></strong> 10<br>
+    <strong>Target:</strong> <%= locals.power.target %><br>
+    <strong>Attack:</strong> <%= locals.power.attackVersus %></p>
+  </div>
+  <div class='shaded lightred'>
+    <p><strong>Hit:</strong> <%= locals.power.hit %></p>
+  </div>
+  <div class='plain'>
+    <p><strong><%= locals.power.specialTitle %></strong><%= locals.power.specialValue %></p>
   </div>
 </div>

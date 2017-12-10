@@ -1,16 +1,14 @@
-{
-  [
-    {
-      "name": "Bloodseeking Spirits",
-      "attack": "Necromancer Attack 3",
-      "description": "You channel up the hungry ghosts of those who have died of famine, setting them loose to feed your allies with your foes' blood.",
-      "types": "Encounter • Conjuration, Healing, Implement, Necrotic, Shadow",
-      "actionType": "Standard Action Ranged",
-      "target": "One, two, or three creatures",
-      "attackVersus": "Intelligence vs. Fortitude",
-      "hit": "1d6 + Intelligence modifier necrotic damage and one ally within 5 squares may spend a healing surge plus your Intelligence mod.",
-      "specialTitle": "Unlife Focus:",
-      "specialValue": "Your ally may make a saving throw instead of regaining hit points."
-    },
-  ]
-}
+[
+  {
+    "name": "Bloodseeking Spirits",
+    "attack": "Necromancer Attack 3",
+    "description": "You channel up the hungry ghosts of those who have died of famine, setting them loose to feed your allies with your foes' blood.",
+    "types": "Encounter • Conjuration, Healing, Implement, Necrotic, Shadow",
+    "actionType": "Standard Action Ranged",
+    "target": "One, two, or three creatures",
+    "attackVersus": "Intelligence vs. Fortitude",
+    "hit": "1d6 + Intelligence modifier necrotic damage and one ally within 5 squares may spend a healing surge plus your Intelligence mod.",
+    "specialTitle": "Unlife Focus:",
+    "specialValue": "Your ally may make a saving throw instead of regaining hit points."
+  }
+]

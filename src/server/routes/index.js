@@ -2,8 +2,13 @@ const router = require('express').Router()
 const setLocals = require('../../helpers/setLocals')
 const powers = require('../../../data/powers.json')
 
-router.get(/(?:sheets?)?/g, (req, res) => {
-  res.render('homepage', {reviews, albums, flash, title: 'Home Page'})
+router.use('/', (req, res, next) => {
+  setLocals(res)
+  next()
+})
+
+router.get(/^sheet$/, (req, res) => {
+  res.render('homepage', {power: powers[0]})
 })
 
 module.exports = router

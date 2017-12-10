@@ -1,4 +1,4 @@
-module.exports = (res, next, values) => {
+module.exports = (res, values) => {
   res.locals = {
     title: 'D&D',
     navbutton1: values && values.navbutton1
@@ -14,6 +14,4 @@ module.exports = (res, next, values) => {
         link: '/powers',
       }
   }
-
-  next()
 }

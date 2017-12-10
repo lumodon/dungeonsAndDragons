@@ -1,7 +1,23 @@
+:root {
+  --top-height: 10vh;
+  --top-margin: 20vh;
+}
+
+.notfound {
+  margin-top: 50vh;
+  font-size: 8em;
+  color: red;
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   justify-content: center;
   padding: 3vh;
+}
+
+.page {
+  margin-top: var(--top-margin);
 }
 
 p, .encounter {
@@ -59,4 +75,14 @@ th {
 .power {
   max-width: 550px;
   border-style: ridge;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  height: var(--top-height);
+  width: 100vw;
+  background-color: #b6b6ff;
 }
