@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 3vh;
+}
+
+p, .encounter {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.power {
+  background-color: white;
+}
+
+body {
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.3em;
+  background-color: black;
+}
+
+.wiki-content-table {
+  margin: 0;
+  border-width: 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  empty-cells: show;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+th {
+  margin: 0;
+  border-width: 0;
+  padding: 0;
+  border-spacing: 0;
+  background: none;
+  text-align: left;
+}
+
+.darkred {
+  color: white;
+  font-weight: bold;
+  background-color: #6C373D;
+}
+
+.lightred {
+  color: black;
+  background-color: #E4E2E4;
+}
+
+.power {
+  max-width: 550px;
+  border-style: ridge;
+}
